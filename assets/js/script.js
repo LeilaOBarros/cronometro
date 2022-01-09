@@ -20,7 +20,7 @@ function parar() {
     hrs = 0;
     min = 0;
     seg = 0;
-    document.getElementById('contador').innerHTML = '00:00:00';
+    document.getElementById('contador').innerHTML = '00h:00m:00s';
 }
 
 function cronometro () {
@@ -36,6 +36,6 @@ function cronometro () {
         }
     }
 
-    var format = (hrs < 10 ? '0' + hrs : hrs) + ':' + (min < 10 ? '0' + min : min) + ':' + (seg < 10 ? '0' + seg : seg);
+    var format = (hrs < 10 ? '0' + hrs : hrs) + 'h:' + (min < 10 ? '0' + min : min) + 'm:' + (seg < 10 ? '0' + seg : seg) + 's';
     document.getElementById('contador').innerHTML = format;
 }
