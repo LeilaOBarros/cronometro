@@ -1,0 +1,55 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/background.jpg");    
+    background-repeat: no-repeat;
+
+}
+
+.max-width {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 220px auto;
+    background-color: rgb(10, 10, 10);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.911), #696969 100%);
+    box-shadow: 10px 10px 1px 1px rgba(0, 0, 0, 0.301);
+    border-radius: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 28px;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-family: 'Arial';
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 500;
+    transition: all .5s;
+    cursor: pointer;
+    gap: 10px;
+    border-radius: 15px;  
+}
+
+button:hover {
+    background-color: #000;
+}
+
+button:active {
+    background-color: #FFF;
+}
+
+.btn{
+    background-color: #5f2031;
+}
