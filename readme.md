@@ -11,4 +11,4 @@
 
 ## Link da página hospedada no GitHub pages:
 
-* 
+* https://leilaobarros.github.io/cronometro/
